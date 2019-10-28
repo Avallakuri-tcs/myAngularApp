@@ -10,14 +10,17 @@
     color : white;
     
 }
-.container-fluid a  {
 
-  
-    text-decoration: none;
-    font-size: 1.2em;
-    
+
+.appTitle {
+
+    text-align: center;
+    font-size: 3em;
+
 }
-.active {
-    color: white;
-    background-color: black;
+.container {
+    width: 600px;
+    margin : 150px auto;
+    text-align: center;
+    
 }

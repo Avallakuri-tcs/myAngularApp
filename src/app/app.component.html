@@ -1,27 +1,10 @@
-{{title}}
-
-<div class="container">
-  
+<div class="appTitle">
+    {{title}}
 </div>
-
-
-<nav class="navbar navbar-expand-sm bg-light">
-  <div class="container-fluid" >
-    
-      
-        <a routerLink="login" class="nav-link" routerLinkActive="active">
-          Login
-        </a>
-      </div>
-      
-      <div class="container-fluid">
-      
-        <a routerLink="view" class="nav-link" routerLinkActive="active">
-          View
-        </a>
-     
+<div class="container">
+    <router-outlet></router-outlet>
   </div>
-</nav>
+  
 
 
 
